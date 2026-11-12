@@ -79,6 +79,27 @@ export default function Home() {
 
         <div className="hero-number">
           SF / 01
+
+      {/* SF MOTORS BRAND MOTION STRIP */}
+      <section className="sf-motion-strip">
+        <div className="motion-glow"></div>
+
+        <div className="motion-brand">
+          <span>SF MOTORS</span>
+          <p>BUILT ON EXPERIENCE. DRIVEN BY TRUST.</p>
+          <Link to="/about" className="motion-link">
+            Explore Our Story <ArrowRight size={16} />
+          </Link>
+        </div>
+
+        <div className="motion-road">
+          <div className="road-lines"></div>
+          <div className="moving-truck">
+            <Truck size={76} strokeWidth={1.2} />
+          </div>
+        </div>
+      </section>
+
         </div>
       </section>
 
